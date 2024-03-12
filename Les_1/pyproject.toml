@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "les-1"
+version = "1.0"
+description = "Asistant_bot"
+authors = ["Dmitry_Liashenko"]
+license = "no"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
