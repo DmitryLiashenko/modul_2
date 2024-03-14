@@ -3,9 +3,8 @@ import datetime as dt
 from dataclasses import dataclass
 from datetime import timedelta as td
 from datetime import datetime as dtdt
-from flask import Flask
+# from flask import Flask
 # from gup import get_upcoming_birthdays
-les_1_hw_1 = Flask(__name__)
 
 def input_error(func):
     """Decorator for handling input errors."""
@@ -271,4 +270,4 @@ def main():
             print("Invalid command.")
 
 if __name__ == "__main__":
-    main.run(debug=False, host="0.0.0.0")
+    main()
